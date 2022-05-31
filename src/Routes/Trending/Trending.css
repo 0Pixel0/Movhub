@@ -1,0 +1,44 @@
+.trending {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+.Card {
+  margin: 1.4em;
+  border-radius: 27px !important;
+  background: #caf0fe !important;
+  box-shadow: 12px 12px 41px black, -12px -12px 41px gray !important;
+}
+.Card:hover {
+  background-color: black !important;
+  color: white !important;
+  transform: scale(1.1);
+  transition: ease-in-out 1s;
+}
+.rating {
+  position: absolute;
+  color: white;
+  border-radius: 10px;
+  height: 1.4rem;
+  width: 2rem;
+  text-align: center;
+}
+
+.card-actions {
+  display: flex !important;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 1em;
+}
+.info-button {
+  outline-style: none;
+  cursor: pointer;
+}
+.Title {
+  text-align: center;
+  font-style: oblique;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
